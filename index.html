@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Profile Card</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="user hide-details" id="userBox">
+      <img src="img/img.png" onclick="openinfo()" />
+      <div class="info">
+        <h1>Julia Alekseeva</h1>
+        <p>Working as a anesthesiologist at <span>Dr. Kotov's clinic</span></p>
+        <p>From: St. Petersburg, Russia</p>
+        <a
+          href="https://www.instagram.com/julia_mokkento/?hl=ru"
+          target="_blank"
+          >Connect with me</a
+        >
+      </div>
+      <div class="close-icon" onclick="closeinfo()"></div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
